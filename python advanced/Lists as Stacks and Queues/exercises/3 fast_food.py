@@ -13,6 +13,6 @@ while orders:
         orders.popleft()
 print(max_order)
 if orders:
-    print(f"Orders left: {' '.join(map(str, orders))}")
+    print(f"Orders left: {' '.join(map(str, orders) )}")
 else:
     print('Orders complete')
