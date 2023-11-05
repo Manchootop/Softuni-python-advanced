@@ -43,8 +43,6 @@ while opening_parentheses and closing_parentheses:
         balanced = False
         break
 
-
-
 if balanced:
     print('YES')
 else:
